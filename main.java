@@ -74,7 +74,7 @@ public class Lab10 {
     }
 
     public static void menue() {
-        String file = "C:\\Users\\Yisacor\\OneDrive\\Desktop\\File\\cecs 277\\Lab-10\\src\\lab\\pkg10\\words.txt";
+        String file = "words.txt";
         TreeMap wordList = (readFile(file));
         int choice;
         boolean Quit = false;
